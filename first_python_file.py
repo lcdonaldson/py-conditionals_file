@@ -54,7 +54,7 @@ else:
 myVar5 = input("Y /N?")
 
 if(myVar5== " Y"):
-    print("Please visit www.cindysessions.com")
+    print("Please visit www.medxprime.com")
 
 else:
     print("That's ok...lets find out how to help you here")
