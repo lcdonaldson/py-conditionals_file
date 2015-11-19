@@ -61,4 +61,4 @@ else:
 myVar6 = input("what would you like to know most about this topic")
 
 if(myVar6== " Results"):
-   print("blabla labs offer state of the art DNA testing to check for genetic markers that indicate probabilites for the type of reactions your body might have to different medicines") 
+   print("medxprime labs offer state of the art DNA testing to check for genetic markers that indicate probabilites for the type of reactions your body might have to different medicines") 
