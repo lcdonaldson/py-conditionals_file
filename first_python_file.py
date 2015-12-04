@@ -1,3 +1,5 @@
+//simple question and response inputs to simulate application logic
+
 print("hello user")
 
 myVar = input("Enter your location")
