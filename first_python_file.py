@@ -30,7 +30,7 @@ if(myVar2 == " developer"):
     print("Your site works awesome but it looks like atari from 1980")
 
 elif(myVar2 == " designer"):
-    print("Wow your site rocks! Just dont click the buttons")
+    print("Wow your site looks great! Just dont click the buttons")
 
 else:
     print("You poor 'WordPress ninja' ")
