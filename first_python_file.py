@@ -22,7 +22,7 @@ elif(myVar1 == " tex mex"):
     print("You should seek counseling")
 
 else:
-    print("Its not steak, but everyone's entitled to their own opinion")
+    print("Its not steak... but i guess everyone's entitled to their own opinion")
 
 myVar2 = input("Would you consider yourself a developer or designer?")
 
