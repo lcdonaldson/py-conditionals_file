@@ -2,6 +2,8 @@
 
 print("hello user")
 
+print("this is medxprime")
+
 myVar = input("Enter your location")
 
 if(myVar == " Thatcher"):
