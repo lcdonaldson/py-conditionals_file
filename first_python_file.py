@@ -9,8 +9,8 @@ myVar = input("Enter your location")
 if(myVar == " Thatcher"):
     print("It isn't heaven but for now it's home")
 
-elif(myVar == " Pima"):
-    print("At least you're not in safford")
+elif(myVar == " Pea Ridge"):
+    print("Home Sweet Home")
 
 else:
     print("You might look into the Texas Hill Country")
