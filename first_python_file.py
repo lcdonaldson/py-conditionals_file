@@ -42,7 +42,7 @@ print("Ok ok...enough chit chat, time for some real info")
 myVar3 = input("Are you familiar with Pharmacogenetics? Y/N")
 
 if(myVar3 == " Y"):
-    print("Can I direct you to a fantastic website about getting the genetic testing done")
+    print("Can I direct you to a website about personal genetic screening for your future health?")
 
 else:
     print("Please go to www.pharmacogenetics.com to learn some more")
