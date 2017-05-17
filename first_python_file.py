@@ -41,7 +41,7 @@ if(myVar4== " Physician"):
 else:
     print("Excellent! Let's get you started")
     
-myVar5 = input("Y /N?")
+myVar5 = input("Y/N?")
 if(myVar5== " Y"):
     print("Please visit www.medxprime.com")
 else:
@@ -49,4 +49,6 @@ else:
     
 myVar6 = input("what would you like to know most about this topic")
 if(myVar6== " Results"):
-   print("medxprime labs offer state of the art DNA testing to check for genetic markers that indicate probabilites for the type of reactions your body might have to different medicines") 
+   print("medxprime labs offer state of the art DNA testing to check for genetic markers that indicate probabilites for the type of reactions your body might have to different medicines")
+elif(myVar6== "what is the cost?")
+    print("between 200 - 500 dollars depending on how much information you are seeking.")
