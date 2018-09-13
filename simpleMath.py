@@ -1,9 +1,9 @@
 # Math.floor example
 import Math
 
-# remainder
+# simple remainder ( this equals 4 because 5 goes into 24 four times with a remainder of 4 )
 24 % 5
-# this equals 4 because 5 goes into 24 four times with a remainder of 4.
+
 
 e = math.floor(2.45 + 7.55 - 14.88)
 # this will give you -5 because floor takes the largest whole number up to the given number
