@@ -1,5 +1,10 @@
 # Math.floor example
 import Math
+# simple operators
+2 + 2 # is 4
+2 - 2 # is 0
+2 * 2 # is 4
+2 / 2 # is 1
 
 # simple remainder ( this equals 4 because 5 goes into 24 four times with a remainder of 4 )
 24 % 5
