@@ -27,6 +27,7 @@ import os
 whiteText = 'white'
 offWhite = '#D7E1E7'
 greyText = '#444'
+blackBg = 'black'
 sourcePath = os.listdir('/Users/levi/Desktop/CODE/code_practice/Regex/python/static/')
 for file in sourcePath:
   inputfile = '/Users/levi/Desktop/CODE/code_practice/Regex/python/static/' + file
@@ -49,6 +50,11 @@ for file in sourcePath:
     newText = 'grey'
     filedata = filedata.replace(greyText, newText)
     print('changed #444 to grey')
+    
+  if blackBg == 'black':
+    newText = '#000000'
+    filedata = filedata.replace(blackBg, newText)
+    print('changed black to #000000')  
     
   with open(fileToChange, 'w') as file:
     file.write(filedata)
