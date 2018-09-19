@@ -35,6 +35,11 @@ print("The interest in dollars = :",simple_interest)
 
 
 # compund interest
+def interestEquation(bal, int, yrs):
+    newBal = bal
+    for i in range(yrs):
+        newBal = newBal + newBal * int/100
+    return newBal
 
 def main():
     balance = float(input("Starting Balance: $ "))
@@ -43,11 +48,5 @@ def main():
     newBalance = interestEquation(balance, intRate, years)
 
     print ("New balance:  $%.2f"  %(newBalance))
-    
-def interestEquation(bal, int, yrs):
-    newBal = bal
-    for i in range(yrs):
-        newBal = newBal + newBal * int/100
-    return newBal
 
 main()
