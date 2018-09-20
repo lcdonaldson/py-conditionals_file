@@ -29,8 +29,8 @@ while num < 11:
 
 principle=float(input("starting amount in dollars:"))
 time=int(input("time(in years):"))
-rate=float(input("what rate?:"))
-simple_interest=(principle*time*rate)/100
+rate=float(input("what is the rate?: "))
+simple_interest=(principle * time * rate)/100
 print("The interest in dollars = :",simple_interest)
 
 
