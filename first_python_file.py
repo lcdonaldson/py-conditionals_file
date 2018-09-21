@@ -26,7 +26,7 @@ elif(myVar2 == " designer"):
     print("Wow your site looks great! Just dont click the buttons")
 else:
     print("You poor 'WordPress ninja' ")
-print("")
+print(" ")
 
 print("Ok ok...enough chit chat, time for some real info")
 myVar3 = input("Are you familiar with Pharmacogenetics? Y/N")
