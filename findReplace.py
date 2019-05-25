@@ -3,7 +3,7 @@
 import os
 
 textToFind = "white"
-textToReplace = "#fff"
+textToReplace = "#FFF"
 sourcePath = os.listdir('pathToFile')
 for file in sourcePath:
   inputfile = 'pathToFile' + file
@@ -37,14 +37,14 @@ for file in sourcePath:
 
   fileToChange = '/Users/levi/Desktop/CODE/code_practice/Regex/python/static/' + file
   if whiteText == 'white':
-    newText = '#fff'
+    newText = '#FFF'
     filedata = filedata.replace(whiteText, newText)
-    print('changed white to #fff')
+    print('changed white to #FFF')
 
   if offWhite == '#D7E1E7':
-    newText = '#fff'
+    newText = '#FFF'
     filedata = filedata.replace(offWhite, newText)
-    print('changed offwhite to #fff')
+    print('changed offwhite to #FFF')
 
   if greyText == '#444':
     newText = 'grey'
