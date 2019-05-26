@@ -47,9 +47,9 @@ for file in sourcePath:
     print('changed offwhite to #FFF')
 
   if greyText == '#444':
-    newText = 'grey'
+    newText = '#A9A9A9'
     filedata = filedata.replace(greyText, newText)
-    print('changed #444 to grey')
+    print('changed #444 to #A9A9A9')
     
   if blackBg == 'black':
     newText = '#000000'
