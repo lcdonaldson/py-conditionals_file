@@ -37,14 +37,14 @@ for file in sourcePath:
 
   fileToChange = '/Users/levi/Desktop/CODE/code_practice/Regex/python/static/' + file
   if whiteText == 'white':
-    newText = '#FFF'
+    newText = '#FFFFFF'
     filedata = filedata.replace(whiteText, newText)
-    print('changed white to #FFF')
+    print('changed white to #FFFFFF')
 
   if offWhite == '#D7E1E7':
-    newText = '#FFF'
+    newText = '#FFFFFF'
     filedata = filedata.replace(offWhite, newText)
-    print('changed offwhite to #FFF')
+    print('changed offwhite to #FFFFFF')
 
   if greyText == '#444':
     newText = '#A9A9A9'
